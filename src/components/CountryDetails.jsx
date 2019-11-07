@@ -4,7 +4,8 @@ import countries from "./countries.json";
 
 const CountryDetails = props => {
   const { params } = props.match;
-  const country = countries.find(item => item.cca3 === params.cca3);
+  let country = {};
+  country = countries.find(item => item.cca3 === params.cca3);
   /*   const languages = Object.values(
     countries.find(item => item.cca3 === params.cca3)
   ); */
