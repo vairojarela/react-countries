@@ -5,9 +5,9 @@ import countries from "./countries.json";
 const CountryDetails = props => {
   const { params } = props.match;
   const country = countries.find(item => item.cca3 === params.cca3);
-  const languages = Object.values(
+  /*   const languages = Object.values(
     countries.find(item => item.cca3 === params.cca3)
-  );
+  ); */
   const nativeName = Object.values(country.name.native)[0].common;
   console.log(country);
   return (
@@ -59,7 +59,7 @@ const CountryDetails = props => {
               <span>{nativeName}</span>
             </td>
           </tr>
-          <tr>
+          {/* <tr>
             <td>Languages</td>
             <td>
               <ul style={ulStyle}>
@@ -68,7 +68,7 @@ const CountryDetails = props => {
                 ))}
               </ul>
             </td>
-          </tr>
+          </tr> */}
         </tbody>
       </table>
     </div>
