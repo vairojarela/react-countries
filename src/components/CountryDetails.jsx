@@ -4,12 +4,15 @@ import countries from "./countries.json";
 
 const CountryDetails = props => {
   const { params } = props.match;
-  let country = {};
-  country = countries.find(item => item.cca3 === params.cca3);
+  const country = countries.find(item => item.cca3 === params.cca3);
+  if (country === undefined) {
+    return <p>Loading...</p>;
+  }
   /*   const languages = Object.values(
     countries.find(item => item.cca3 === params.cca3)
   ); */
-  const nativeName = Object.values(country.name.native)[0].common;
+  let nativeName = Object.values(country.name.native)[0].common;
+
   console.log(country);
   return (
     <div className="col-7">
