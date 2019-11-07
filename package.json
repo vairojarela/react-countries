@@ -2,7 +2,7 @@
   "name": "wiki-countries",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/vairojarela/react-countries",
+  "homepage": "https://vairojarela.github.io/react-countries",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",
