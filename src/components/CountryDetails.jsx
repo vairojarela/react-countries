@@ -1,6 +1,6 @@
 import React from "react";
 import Border from "./Border";
-import countries from "../countries.json";
+import countries from "./countries.json";
 
 const CountryDetails = props => {
   const { params } = props.match;
