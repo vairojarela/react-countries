@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vairojarela/react-countries/precache-manifest.f7db3f8b068d31799cdb60fec6bc5341.js"
+  "/vairojarela/react-countries/precache-manifest.37fac09e4e4d5b0cd7bfa9c024c74565.js"
 );
 
 workbox.clientsClaim();
