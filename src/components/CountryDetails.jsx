@@ -5,7 +5,9 @@ import countries from "./countries.json";
 const CountryDetails = props => {
   const { params } = props.match;
   const country = countries.find(item => item.cca3 === params.cca3);
-  const languages = Object.values(country.languages);
+  const languages = Object.values(
+    countries.find(item => item.cca3 === params.cca3)
+  );
   const nativeName = Object.values(country.name.native)[0].common;
   console.log(country);
   return (
