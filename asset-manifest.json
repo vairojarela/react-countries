@@ -1,15 +1,24 @@
 {
-  "main.css": "/react-countries/static/css/main.36d1ff1e.chunk.css",
-  "main.js": "/react-countries/static/js/main.8b96e8af.chunk.js",
-  "main.js.map": "/react-countries/static/js/main.8b96e8af.chunk.js.map",
-  "static/css/1.c61a68b0.chunk.css": "/react-countries/static/css/1.c61a68b0.chunk.css",
-  "static/js/1.280c668b.chunk.js": "/react-countries/static/js/1.280c668b.chunk.js",
-  "static/js/1.280c668b.chunk.js.map": "/react-countries/static/js/1.280c668b.chunk.js.map",
-  "runtime~main.js": "/react-countries/static/js/runtime~main.8fef0691.js",
-  "runtime~main.js.map": "/react-countries/static/js/runtime~main.8fef0691.js.map",
-  "static/css/main.36d1ff1e.chunk.css.map": "/react-countries/static/css/main.36d1ff1e.chunk.css.map",
-  "static/css/1.c61a68b0.chunk.css.map": "/react-countries/static/css/1.c61a68b0.chunk.css.map",
-  "index.html": "/react-countries/index.html",
-  "precache-manifest.915149a0c808c27e435a8d4a45c61fe2.js": "/react-countries/precache-manifest.915149a0c808c27e435a8d4a45c61fe2.js",
-  "service-worker.js": "/react-countries/service-worker.js"
+  "files": {
+    "main.css": "/react-countries/static/css/main.68a98085.chunk.css",
+    "main.js": "/react-countries/static/js/main.f2b2e4d7.chunk.js",
+    "main.js.map": "/react-countries/static/js/main.f2b2e4d7.chunk.js.map",
+    "runtime-main.js": "/react-countries/static/js/runtime-main.2842d1d9.js",
+    "runtime-main.js.map": "/react-countries/static/js/runtime-main.2842d1d9.js.map",
+    "static/css/2.9720967d.chunk.css": "/react-countries/static/css/2.9720967d.chunk.css",
+    "static/js/2.81c1fc39.chunk.js": "/react-countries/static/js/2.81c1fc39.chunk.js",
+    "static/js/2.81c1fc39.chunk.js.map": "/react-countries/static/js/2.81c1fc39.chunk.js.map",
+    "index.html": "/react-countries/index.html",
+    "precache-manifest.e83f34a7ab000f69f426c81476a0e08f.js": "/react-countries/precache-manifest.e83f34a7ab000f69f426c81476a0e08f.js",
+    "service-worker.js": "/react-countries/service-worker.js",
+    "static/css/2.9720967d.chunk.css.map": "/react-countries/static/css/2.9720967d.chunk.css.map",
+    "static/css/main.68a98085.chunk.css.map": "/react-countries/static/css/main.68a98085.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2842d1d9.js",
+    "static/css/2.9720967d.chunk.css",
+    "static/js/2.81c1fc39.chunk.js",
+    "static/css/main.68a98085.chunk.css",
+    "static/js/main.f2b2e4d7.chunk.js"
+  ]
 }
