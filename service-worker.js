@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vairojarela/react-countries/precache-manifest.37fac09e4e4d5b0cd7bfa9c024c74565.js"
+  "/react-countries/precache-manifest.50f6699a3d3d807e12d314f8f7fcbd22.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/vairojarela/react-countries/index.html", {
+workbox.routing.registerNavigationRoute("/react-countries/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
