@@ -1,5 +1,5 @@
 import React from "react";
-import countries from "../countries.json";
+import countries from "../countries.json.js";
 import { Link } from "react-router-dom";
 
 const SideNav = () => {
